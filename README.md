@@ -9,10 +9,33 @@ POS Tagger is a Python-based tool that utilizes the Natural Language Toolkit (NL
 - Assigns POS tags to words in a sentence
 - Accurate tagging using machine learning models
 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/iamv1n/pos-tagger.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd pos-tagger
+```
+
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. To use the pos_tagger module globally Install the module
+```bash
+pip install -e pos_tagger
+```
+`This will install the package in editable mode (-e flag), allowing you to make changes to the package without reinstalling it.`
+
 ## Usage
 Import the pos_tagger module and use the tag_sentence function to tag a sentence:
 ```python
-from pos_tagger import tag_sentence
+from postagger import tag_sentence
 
 sentence = "This is a sample sentence."
 tags = tag_sentence(sentence)
