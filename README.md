@@ -25,7 +25,7 @@ cd pos-tagger
 ```bash
 pip install -r requirements.txt
 ```
-<!-- 
+
 4. To use the pos_tagger module globally Install the module
 ```bash
 pip install -e pos_tagger
@@ -35,15 +35,14 @@ pip install -e pos_tagger
 ## Usage
 Import the pos_tagger module and use the tag_sentence function to tag a sentence:
 ```python
-from postagger import tag_sentence
+from pos_tagger import tag_sentence
 
 sentence = "This is a sample sentence."
 tags = tag_sentence(sentence)
 print(tags)
-
 ```
 The output will be a list of (word, tag) tuples representing the POS tags for each word in the sentence.
--->
+
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/iamv1n/pos-tagger/blob/main/LICENSE.md) file for details.
