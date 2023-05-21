@@ -25,7 +25,7 @@ cd pos-tagger
 ```bash
 pip install -r requirements.txt
 ```
-
+<!-- 
 4. To use the pos_tagger module globally Install the module
 ```bash
 pip install -e pos_tagger
@@ -43,6 +43,7 @@ print(tags)
 
 ```
 The output will be a list of (word, tag) tuples representing the POS tags for each word in the sentence.
+-->
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
